@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-11T13:43:04.088Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36" etag="ji76mzAaVan_f8M19k1q" version="12.6.7" type="github">
+<mxfile host="www.draw.io" modified="2020-02-12T07:26:18.453Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36" etag="tFaLMP2SodfPyVs4xut2" version="12.6.7" type="github">
   <diagram id="9g5YoI2fS25pkF99L6Iy" name="Page-1">
     <mxGraphModel dx="1422" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="9VM56Yk_VsYJPP7YuBCW-6" value="设备模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="360" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="9VM56Yk_VsYJPP7YuBCW-7" value="权限管理模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9VM56Yk_VsYJPP7YuBCW-7" value="认证及权限管理模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="360" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="9VM56Yk_VsYJPP7YuBCW-8" value="用户管理模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
