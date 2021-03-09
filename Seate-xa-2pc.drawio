@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T03:13:34.068Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="DQrPwPcq54VIstnBebqC" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T03:22:30.588Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="BbGBPqfG5o-Nar2oFPkm" version="14.2.9" type="github">
   <diagram id="51Pxaz-fKuKTGId_RRSJ" name="第 1 页">
     <mxGraphModel dx="698" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,23 @@
         </mxCell>
         <mxCell id="ZqDz67XztfIhXn3ckhb3-17" value="2.prepare（vote_reqeust）" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];rotation=33;" vertex="1" connectable="0" parent="ZqDz67XztfIhXn3ckhb3-12">
           <mxGeometry x="-0.3374" y="1" relative="1" as="geometry">
-            <mxPoint x="9.62" y="9.28" as="offset" />
+            <mxPoint x="9.62" y="9.479999999999999" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqDz67XztfIhXn3ckhb3-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZqDz67XztfIhXn3ckhb3-2" target="ZqDz67XztfIhXn3ckhb3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqDz67XztfIhXn3ckhb3-30" value="5.global_commit(commit)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=33;" vertex="1" connectable="0" parent="ZqDz67XztfIhXn3ckhb3-29">
+          <mxGeometry x="-0.2549" y="4" relative="1" as="geometry">
+            <mxPoint x="22.2" y="8.13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqDz67XztfIhXn3ckhb3-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.002;exitY=0.39;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZqDz67XztfIhXn3ckhb3-2" target="ZqDz67XztfIhXn3ckhb3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqDz67XztfIhXn3ckhb3-33" value="5.global_commit(commit)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=327;" vertex="1" connectable="0" parent="ZqDz67XztfIhXn3ckhb3-31">
+          <mxGeometry x="0.3219" y="-5" relative="1" as="geometry">
+            <mxPoint x="-20.01" y="12.22" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZqDz67XztfIhXn3ckhb3-2" value="Coordinator&lt;br&gt;（协调者）&lt;br&gt;init" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -32,39 +48,63 @@
         <mxCell id="ZqDz67XztfIhXn3ckhb3-4" value="1.发起请求调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="170" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZqDz67XztfIhXn3ckhb3-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.008;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZqDz67XztfIhXn3ckhb3-8" target="ZqDz67XztfIhXn3ckhb3-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ZqDz67XztfIhXn3ckhb3-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZqDz67XztfIhXn3ckhb3-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="471" y="170" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZqDz67XztfIhXn3ckhb3-18" value="4.vote_commit(ready)" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];rotation=325;" vertex="1" connectable="0" parent="ZqDz67XztfIhXn3ckhb3-13">
           <mxGeometry x="-0.2513" relative="1" as="geometry">
-            <mxPoint x="-13.85" y="8.45" as="offset" />
+            <mxPoint x="-24.32" y="2.629999999999999" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZqDz67XztfIhXn3ckhb3-22" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZqDz67XztfIhXn3ckhb3-8" target="ZqDz67XztfIhXn3ckhb3-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ZqDz67XztfIhXn3ckhb3-22" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="58" as="sourcePoint" />
+            <mxPoint x="930" y="58" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZqDz67XztfIhXn3ckhb3-25" value="3.开启本地事务操作数据库&lt;br&gt;（uncommit）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZqDz67XztfIhXn3ckhb3-22">
           <mxGeometry x="-0.25" y="-1" relative="1" as="geometry">
-            <mxPoint x="16" y="-1" as="offset" />
+            <mxPoint x="16" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqDz67XztfIhXn3ckhb3-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZqDz67XztfIhXn3ckhb3-8" target="ZqDz67XztfIhXn3ckhb3-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqDz67XztfIhXn3ckhb3-36" value="6.提交本地数据库事务&lt;br&gt;（commit）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZqDz67XztfIhXn3ckhb3-34">
+          <mxGeometry x="-0.2235" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZqDz67XztfIhXn3ckhb3-8" value="Partcipant&lt;br&gt;(参与者A)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZqDz67XztfIhXn3ckhb3-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZqDz67XztfIhXn3ckhb3-9" target="ZqDz67XztfIhXn3ckhb3-2">
+        <mxCell id="ZqDz67XztfIhXn3ckhb3-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZqDz67XztfIhXn3ckhb3-9" target="ZqDz67XztfIhXn3ckhb3-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZqDz67XztfIhXn3ckhb3-20" value="4.vote_commit(read)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=31;" vertex="1" connectable="0" parent="ZqDz67XztfIhXn3ckhb3-14">
+        <mxCell id="ZqDz67XztfIhXn3ckhb3-20" value="4.vote_commit(read)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=33;" vertex="1" connectable="0" parent="ZqDz67XztfIhXn3ckhb3-14">
           <mxGeometry x="0.1715" y="-2" relative="1" as="geometry">
-            <mxPoint x="26.97" as="offset" />
+            <mxPoint x="6.390000000000001" y="7.08" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZqDz67XztfIhXn3ckhb3-24" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZqDz67XztfIhXn3ckhb3-9" target="ZqDz67XztfIhXn3ckhb3-23">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ZqDz67XztfIhXn3ckhb3-24" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="287" as="sourcePoint" />
+            <mxPoint x="930" y="287" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZqDz67XztfIhXn3ckhb3-26" value="3.开启本地事务操作数据库&lt;br&gt;（uncommit）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZqDz67XztfIhXn3ckhb3-24">
           <mxGeometry x="-0.2421" y="-1" relative="1" as="geometry">
             <mxPoint x="15" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqDz67XztfIhXn3ckhb3-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZqDz67XztfIhXn3ckhb3-9" target="ZqDz67XztfIhXn3ckhb3-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqDz67XztfIhXn3ckhb3-39" value="6.提交本地数据库事务&lt;br&gt;（commit）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZqDz67XztfIhXn3ckhb3-38">
+          <mxGeometry x="-0.1615" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZqDz67XztfIhXn3ckhb3-9" value="Partcipant&lt;br&gt;（参与者B）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
