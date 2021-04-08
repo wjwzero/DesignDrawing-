@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T07:36:32.988Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="zMfd4KtUbMhRTxb52Fvx" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-08T09:32:23.679Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="1pSBbvPj4YaB8hKjcjQx" version="14.2.9" type="github">
   <diagram id="VscAiyuKWHetD42OGbaB" name="第 1 页">
     <mxGraphModel dx="1660" dy="474" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,6 +186,240 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="z9-GPWEVaoNOVswkqr81-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=18;" edge="1" parent="z9-GPWEVaoNOVswkqr81-30" source="z9-GPWEVaoNOVswkqr81-35" target="z9-GPWEVaoNOVswkqr81-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-596" y="1290" width="477" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-43" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-42">
+          <mxGeometry x="367" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-44" value="删除规则结果（成功\失败）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-43">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-45" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-43">
+          <mxGeometry x="30" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-46" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-42">
+          <mxGeometry x="181" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-47" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1.规则是否在使用中（预留）&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-46">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-48" value="处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-46">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-49" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-42">
+          <mxGeometry width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-50" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1.待删除的规则信息编号&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-49">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-51" value="输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-49">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-52" value="" style="endArrow=classic;html=1;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="z9-GPWEVaoNOVswkqr81-42" source="z9-GPWEVaoNOVswkqr81-50" target="z9-GPWEVaoNOVswkqr81-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="288" y="174" as="sourcePoint" />
+            <mxPoint x="338" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=18;" edge="1" parent="z9-GPWEVaoNOVswkqr81-42" source="z9-GPWEVaoNOVswkqr81-47" target="z9-GPWEVaoNOVswkqr81-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-54" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-596" y="1642" width="477" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-55" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-54">
+          <mxGeometry x="367" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-56" value="是否通过筛选&lt;br&gt;通过筛选的数据根据规则定义执行转发动作" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-55">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-57" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-55">
+          <mxGeometry x="30" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-58" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-54">
+          <mxGeometry x="181" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-59" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1.根据上报Topic、规则筛选条件组合成筛选SQL&lt;br&gt;2.根据筛选SQL筛选上报数据&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-58">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-60" value="处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-58">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-61" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-54">
+          <mxGeometry width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-62" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;1.开发者自定义上报Topic&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.上报数据&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.规则筛选条件&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-61">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-63" value="输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-61">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-64" value="" style="endArrow=classic;html=1;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="z9-GPWEVaoNOVswkqr81-54" source="z9-GPWEVaoNOVswkqr81-62" target="z9-GPWEVaoNOVswkqr81-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="288" y="174" as="sourcePoint" />
+            <mxPoint x="338" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=18;" edge="1" parent="z9-GPWEVaoNOVswkqr81-54" source="z9-GPWEVaoNOVswkqr81-59" target="z9-GPWEVaoNOVswkqr81-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-66" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-598" y="2012" width="477" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-67" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-66">
+          <mxGeometry x="367" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-68" value="执行转发动作" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-67">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-69" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-67">
+          <mxGeometry x="30" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-70" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-66">
+          <mxGeometry x="181" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-71" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1.根据上报Topic、规则筛选条件组合成筛选SQL&lt;br&gt;2.筛选获得产品类别下所有设备&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-70">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-72" value="处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-70">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-73" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-66">
+          <mxGeometry width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-74" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;1.设备状态Topic&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.设备状态关键字&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.开发者租户下产品类别&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-73">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-75" value="输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-73">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-76" value="" style="endArrow=classic;html=1;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="z9-GPWEVaoNOVswkqr81-66" source="z9-GPWEVaoNOVswkqr81-74" target="z9-GPWEVaoNOVswkqr81-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="288" y="174" as="sourcePoint" />
+            <mxPoint x="338" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=18;" edge="1" parent="z9-GPWEVaoNOVswkqr81-66" source="z9-GPWEVaoNOVswkqr81-71" target="z9-GPWEVaoNOVswkqr81-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-78" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-602" y="2397" width="477" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-79" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-78">
+          <mxGeometry x="367" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-80" value="执行转发动作" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-79">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-81" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-79">
+          <mxGeometry x="30" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-82" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-78">
+          <mxGeometry x="181" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-83" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1.根据上报Topic、规则筛选条件组合成筛选SQL&lt;br&gt;2.筛选获得产品类别下所有设备&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-82">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-84" value="处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-82">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-85" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-78">
+          <mxGeometry width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-86" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;1.设备状态Topic&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.设备状态关键字&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.开发者租户下产品类别&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-85">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-87" value="输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-85">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-88" value="" style="endArrow=classic;html=1;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="z9-GPWEVaoNOVswkqr81-78" source="z9-GPWEVaoNOVswkqr81-86" target="z9-GPWEVaoNOVswkqr81-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="288" y="174" as="sourcePoint" />
+            <mxPoint x="338" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=18;" edge="1" parent="z9-GPWEVaoNOVswkqr81-78" source="z9-GPWEVaoNOVswkqr81-83" target="z9-GPWEVaoNOVswkqr81-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-90" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-605" y="2775" width="477" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-91" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-90">
+          <mxGeometry x="367" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-92" value="保存到云存储模块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-91">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-93" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-91">
+          <mxGeometry x="30" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-94" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-90">
+          <mxGeometry x="181" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-95" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1.解析转发动作配置&lt;br&gt;2.根据转发目标装置转发数据&lt;br&gt;自定义Topic：透传&lt;br&gt;物模型Topic：解析成物模型格式数据&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-94">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-96" value="处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-94">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-97" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-90">
+          <mxGeometry width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-98" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;1.转发目标设备的&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;规则动作转发的字段&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.原产品Key、设备Key&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.目标闪频Key、设备Key&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-97">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-99" value="输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-97">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-100" value="" style="endArrow=classic;html=1;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="z9-GPWEVaoNOVswkqr81-90" source="z9-GPWEVaoNOVswkqr81-98" target="z9-GPWEVaoNOVswkqr81-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="288" y="174" as="sourcePoint" />
+            <mxPoint x="338" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=18;" edge="1" parent="z9-GPWEVaoNOVswkqr81-90" source="z9-GPWEVaoNOVswkqr81-95" target="z9-GPWEVaoNOVswkqr81-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-102" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-608" y="3137" width="477" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-103" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-102">
+          <mxGeometry x="367" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-104" value="发送消息到第三方云服务MqttBroker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-103">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-105" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-103">
+          <mxGeometry x="30" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-106" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-102">
+          <mxGeometry x="181" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-107" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1.解析转发动作配置&lt;br&gt;2.校验操作产品Key&lt;br&gt;3.是否含有设备状态系统关键字&lt;br&gt;设备状态转发必须有设备状态字段系统关键字&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-106">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-108" value="处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-106">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-109" value="" style="group" vertex="1" connectable="0" parent="z9-GPWEVaoNOVswkqr81-102">
+          <mxGeometry width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-110" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;1.转发目标设备的&lt;/span&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;规则动作转发的字段&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.原产品Key、设备Key&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.目标产品Key、设备Key&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-109">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-111" value="输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="z9-GPWEVaoNOVswkqr81-109">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-112" value="" style="endArrow=classic;html=1;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="z9-GPWEVaoNOVswkqr81-102" source="z9-GPWEVaoNOVswkqr81-110" target="z9-GPWEVaoNOVswkqr81-107">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="288" y="174" as="sourcePoint" />
+            <mxPoint x="338" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z9-GPWEVaoNOVswkqr81-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=18;" edge="1" parent="z9-GPWEVaoNOVswkqr81-102" source="z9-GPWEVaoNOVswkqr81-107" target="z9-GPWEVaoNOVswkqr81-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
