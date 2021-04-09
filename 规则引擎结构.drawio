@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T06:59:52.549Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="yiITFrthmOg_TGaaKLhR" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T07:08:04.795Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="KagbbyiOr9WP0a8jUNlY" version="14.2.9" type="github">
   <diagram id="ROEMa9HSGy-mo3ogROd2" name="第 1 页">
-    <mxGraphModel dx="1414" dy="1186" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="874" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="260" y="120" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="210" width="490" height="50" as="geometry" />
+          <mxGeometry x="260" y="180" width="490" height="104" as="geometry" />
         </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="295" width="490" height="50" as="geometry" />
@@ -44,13 +44,13 @@
           <mxGeometry x="160" y="300" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-20" value="自定义数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="220" width="90" height="30" as="geometry" />
+          <mxGeometry x="280" y="237" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-21" value="物模型数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="405" y="220" width="90" height="30" as="geometry" />
+          <mxGeometry x="405" y="237" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-22" value="设备状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="220" width="90" height="30" as="geometry" />
+          <mxGeometry x="530" y="237" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="GSGMeQO4HnK7w9t3HuRA-23" target="GSGMeQO4HnK7w9t3HuRA-28">
           <mxGeometry relative="1" as="geometry" />
@@ -78,6 +78,12 @@
         </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-30" value="云存" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" vertex="1" parent="1">
           <mxGeometry x="417.5" y="384" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GSGMeQO4HnK7w9t3HuRA-40" value="规则过滤" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="195" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GSGMeQO4HnK7w9t3HuRA-41" value="SQL条件解析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="195" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
