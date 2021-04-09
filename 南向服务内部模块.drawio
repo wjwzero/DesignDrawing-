@@ -1,44 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T02:28:32.127Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="jk2_mXIenbsneGemS8J2" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T05:38:42.620Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="2aDntGgDZGAxdwfUj-7D" version="14.2.9" type="github">
   <diagram id="HBClJAgBMeounDOyIU6Q" name="第 1 页">
-    <mxGraphModel dx="860" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="1643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YUObtwRhni4A1dQDBe8s-1" value="上行消息处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="YUObtwRhni4A1dQDBe8s-3" value="上行消息处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YUObtwRhni4A1dQDBe8s-4" value="物模型处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YUObtwRhni4A1dQDBe8s-5" value="物模型属性处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YUObtwRhni4A1dQDBe8s-6" value="物模型事件处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="-160" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YUObtwRhni4A1dQDBe8s-7" value="物模型指令处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YUObtwRhni4A1dQDBe8s-8" value="自定义透传" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YUObtwRhni4A1dQDBe8s-9" value="JavaScript脚本解析" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="580" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YUObtwRhni4A1dQDBe8s-10" value="属性告警处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YUObtwRhni4A1dQDBe8s-11" value="事件告警处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="-50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YUObtwRhni4A1dQDBe8s-12" value="设备状态处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YUObtwRhni4A1dQDBe8s-13" value="设备状态告警处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YUObtwRhni4A1dQDBe8s-14" value="非物模型处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YUObtwRhni4A1dQDBe8s-19" value="物模型处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YUObtwRhni4A1dQDBe8s-20" value="物模型属性处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YUObtwRhni4A1dQDBe8s-21" value="属性告警处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YUObtwRhni4A1dQDBe8s-22" value="物模型事件处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YUObtwRhni4A1dQDBe8s-24" value="消息中间件" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YUObtwRhni4A1dQDBe8s-25" value="匹配规则引擎" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YUObtwRhni4A1dQDBe8s-26" value="规则引擎SQL条件过滤" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YUObtwRhni4A1dQDBe8s-27" value="规则动作" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YUObtwRhni4A1dQDBe8s-28" value="规则动作" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="580" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
