@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T06:54:37.196Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="U2jl2onjnJurvcYP-d7G" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T06:59:52.549Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="yiITFrthmOg_TGaaKLhR" version="14.2.9" type="github">
   <diagram id="ROEMa9HSGy-mo3ogROd2" name="第 1 页">
-    <mxGraphModel dx="860" dy="1643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="1186" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,10 +20,10 @@
           <mxGeometry x="680" y="18.5" width="40" height="67" as="geometry" />
         </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-7" value="开发者租户" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Identity_Governance.svg;" vertex="1" parent="1">
-          <mxGeometry x="280" y="20" width="64" height="64" as="geometry" />
+          <mxGeometry x="293" y="20" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-12" value="设备上行消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="120" width="60" height="280" as="geometry" />
+          <mxGeometry x="670" y="120" width="60" height="240" as="geometry" />
         </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-14" value="创建规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="130" width="90" height="30" as="geometry" />
@@ -52,11 +52,20 @@
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-22" value="设备状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="220" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GSGMeQO4HnK7w9t3HuRA-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="GSGMeQO4HnK7w9t3HuRA-23" target="GSGMeQO4HnK7w9t3HuRA-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-23" value="转发到设备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="305" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GSGMeQO4HnK7w9t3HuRA-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="GSGMeQO4HnK7w9t3HuRA-24" target="GSGMeQO4HnK7w9t3HuRA-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-24" value="转发到云存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="405" y="305" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GSGMeQO4HnK7w9t3HuRA-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="GSGMeQO4HnK7w9t3HuRA-25" target="GSGMeQO4HnK7w9t3HuRA-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-25" value="转发到服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="305" width="90" height="30" as="geometry" />
@@ -65,10 +74,10 @@
           <mxGeometry x="305" y="380.5" width="40" height="67" as="geometry" />
         </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-29" value="第三方服务" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Service_Plans.svg;" vertex="1" parent="1">
-          <mxGeometry x="550" y="382" width="64" height="64" as="geometry" />
+          <mxGeometry x="543" y="384" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="GSGMeQO4HnK7w9t3HuRA-30" value="云存" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="422.5" y="384" width="65" height="60" as="geometry" />
+          <mxGeometry x="417.5" y="384" width="65" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
