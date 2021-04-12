@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T02:37:14.111Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" version="14.2.9" etag="pyy1dX7X4dnMIUdscmi7" type="github"><diagram id="3r4db8EQs7idlHm0eR0u">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-12T02:49:10.506Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="91djLIsmQYQDbAJungCH" version="14.2.9" type="github">
+  <diagram id="3r4db8EQs7idlHm0eR0u" name="第 1 页">
+    <mxGraphModel dx="1260" dy="874" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bzTYLXjKifPnCs00Gsb_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bzTYLXjKifPnCs00Gsb_-1" target="bzTYLXjKifPnCs00Gsb_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="16" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bzTYLXjKifPnCs00Gsb_-1" value="MQTT Broker Cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="110" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bzTYLXjKifPnCs00Gsb_-2" value="认证服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="-3" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bzTYLXjKifPnCs00Gsb_-3" value="南向服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bzTYLXjKifPnCs00Gsb_-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bzTYLXjKifPnCs00Gsb_-5" target="bzTYLXjKifPnCs00Gsb_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bzTYLXjKifPnCs00Gsb_-11" value="1.获取设备认证信息&lt;br&gt;默认订阅列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bzTYLXjKifPnCs00Gsb_-10">
+          <mxGeometry x="-0.2816" y="2" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bzTYLXjKifPnCs00Gsb_-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.386;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bzTYLXjKifPnCs00Gsb_-5" target="bzTYLXjKifPnCs00Gsb_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bzTYLXjKifPnCs00Gsb_-5" value="设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="11" y="251" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bzTYLXjKifPnCs00Gsb_-7" value="北向服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bzTYLXjKifPnCs00Gsb_-8" value="设备服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="251" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bzTYLXjKifPnCs00Gsb_-14" value="2.根据获取到的认证信息，&lt;br&gt;连接MQTT Broker Cluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-96" y="200" width="152" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="bzTYLXjKifPnCs00Gsb_-15" value="3.http校验设备认证信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="6" y="48" width="136" height="18" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
