@@ -1,1 +1,191 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T11:19:18.459Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" version="14.2.9" etag="P-wrCxwItXXcY_YJbOor" type="github"><diagram id="NL9NKNYtG-C67MHmulYY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-12T11:57:12.261Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="MBuXlZf1HtFq-402OwTT" version="14.2.9" type="github">
+  <diagram id="NL9NKNYtG-C67MHmulYY" name="第 1 页">
+    <mxGraphModel dx="1414" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-1" value="" style="fillColor=#DEE8FF;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="80" y="20" width="806" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-2" value="IOT云" style="shadow=1;fillColor=#A2C4C9;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="250" y="50" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-5" value="" style="fillColor=#CC4125;strokeColor=#660000" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="310" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-6" value="设备" style="shadow=1;fillColor=#A2C4C9;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="50" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-7" value="" style="edgeStyle=none;endArrow=none;dashed=1" edge="1" parent="1" source="oRI_HrbKrFosAHQT1TK0-6" target="oRI_HrbKrFosAHQT1TK0-5">
+          <mxGeometry x="369.8350694444445" y="155" width="100" height="100" as="geometry">
+            <mxPoint x="444.7588734567901" y="100" as="sourcePoint" />
+            <mxPoint x="445.0761959876544" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-8" value="规则引擎" style="shadow=1;fillColor=#A2C4C9;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="537.5039506172839" y="49.99999999999997" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-9" value="云产品" style="shadow=1;fillColor=#A2C4C9;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="697.72" y="50" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-10" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;dashed=1" edge="1" parent="1" source="oRI_HrbKrFosAHQT1TK0-2">
+          <mxGeometry x="327.5" y="300" width="100" height="100" as="geometry">
+            <mxPoint x="327.5" y="400" as="sourcePoint" />
+            <mxPoint x="302.5" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-11" value="" style="edgeStyle=none;dashed=1;endArrow=none" edge="1" parent="1" source="oRI_HrbKrFosAHQT1TK0-48">
+          <mxGeometry x="147.5" y="290" width="100" height="100" as="geometry">
+            <mxPoint x="302.5" y="200" as="sourcePoint" />
+            <mxPoint x="302.5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-13" value="" style="edgeStyle=none;endArrow=none;dashed=1" edge="1" parent="1" source="oRI_HrbKrFosAHQT1TK0-29">
+          <mxGeometry x="528.9878472222224" y="164.99999999999997" width="100" height="100" as="geometry">
+            <mxPoint x="589.5" y="100" as="sourcePoint" />
+            <mxPoint x="589.5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-14" value="" style="edgeStyle=none;endArrow=none;dashed=1" edge="1" parent="1" source="oRI_HrbKrFosAHQT1TK0-31">
+          <mxGeometry x="741.4878472222224" y="174.99999999999997" width="100" height="100" as="geometry">
+            <mxPoint x="802" y="110" as="sourcePoint" />
+            <mxPoint x="165" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-15" value="" style="edgeStyle=none;endArrow=none;dashed=1" edge="1" parent="1" source="oRI_HrbKrFosAHQT1TK0-9">
+          <mxGeometry x="689.7078472222224" y="164.99999999999997" width="100" height="100" as="geometry">
+            <mxPoint x="750.2289514066497" y="100" as="sourcePoint" />
+            <mxPoint x="750.2200000000003" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-16" value="开发者Portal" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="50" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-17" value="" style="fillColor=#CC4125;strokeColor=#660000" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="150" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.06;exitY=0.628;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="oRI_HrbKrFosAHQT1TK0-29" target="oRI_HrbKrFosAHQT1TK0-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-28" value="1.3.1:数据输出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oRI_HrbKrFosAHQT1TK0-27">
+          <mxGeometry x="-0.3279" y="-1" relative="1" as="geometry">
+            <mxPoint x="11.34" y="-18.71" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-29" value="" style="fillColor=#CC4125;strokeColor=#660000" vertex="1" parent="1">
+          <mxGeometry x="585" y="560" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-30" value="" style="edgeStyle=none;endArrow=none;dashed=1" edge="1" parent="1" target="oRI_HrbKrFosAHQT1TK0-29">
+          <mxGeometry x="528.9878472222224" y="164.99999999999997" width="100" height="100" as="geometry">
+            <mxPoint x="589.5" y="100" as="sourcePoint" />
+            <mxPoint x="589.5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-31" value="" style="fillColor=#CC4125;strokeColor=#660000" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="10" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-32" value="" style="edgeStyle=none;endArrow=none;dashed=1" edge="1" parent="1" target="oRI_HrbKrFosAHQT1TK0-31" source="oRI_HrbKrFosAHQT1TK0-16">
+          <mxGeometry x="741.4878472222224" y="174.99999999999997" width="100" height="100" as="geometry">
+            <mxPoint x="802" y="110" as="sourcePoint" />
+            <mxPoint x="802" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-33" value="" style="fillColor=#CC4125;strokeColor=#660000" vertex="1" parent="1">
+          <mxGeometry x="745.22" y="590" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-36" value="" style="edgeStyle=none;endArrow=none;dashed=1" edge="1" parent="1">
+          <mxGeometry x="474.0711805555559" y="329.6971450617284" width="100" height="100" as="geometry">
+            <mxPoint x="442.5" y="420" as="sourcePoint" />
+            <mxPoint x="442.5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-42" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.928;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="307.50000000000045" y="210.00794999999985" as="sourcePoint" />
+            <mxPoint x="308.5" y="240.4" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="327.5" y="210.4" />
+              <mxPoint x="327.5" y="240.4" />
+              <mxPoint x="308.5" y="240.4" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-44" value="1.1：参数&lt;br&gt;数据根据物模型&lt;br&gt;进行解析校验" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oRI_HrbKrFosAHQT1TK0-42">
+          <mxGeometry x="-0.3144" y="-1" relative="1" as="geometry">
+            <mxPoint x="51" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-48" value="" style="fillColor=#CC4125;strokeColor=#660000" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="390" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-49" value="" style="edgeStyle=none;dashed=1;endArrow=none" edge="1" parent="1" target="oRI_HrbKrFosAHQT1TK0-48">
+          <mxGeometry x="147.5" y="290" width="100" height="100" as="geometry">
+            <mxPoint x="303" y="360" as="sourcePoint" />
+            <mxPoint x="302.5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="154" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="154.39" />
+              <mxPoint x="240" y="154.39" />
+            </Array>
+            <mxPoint x="170" y="154.39" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-51" value="1：服务调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oRI_HrbKrFosAHQT1TK0-50">
+          <mxGeometry x="-0.3718" y="1" relative="1" as="geometry">
+            <mxPoint x="19" y="-13.4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="297.5" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="237.5" y="190.39" />
+              <mxPoint x="237.5" y="190.39" />
+            </Array>
+            <mxPoint x="167.5" y="190.39" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-53" value="1.2：返回MessageId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oRI_HrbKrFosAHQT1TK0-52">
+          <mxGeometry x="-0.3718" y="1" relative="1" as="geometry">
+            <mxPoint x="19" y="-13.4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437.5" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="377.5" y="310.39" />
+              <mxPoint x="377.5" y="310.39" />
+            </Array>
+            <mxPoint x="307.5" y="310.39" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-57" value="1.4：数据下发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oRI_HrbKrFosAHQT1TK0-56">
+          <mxGeometry x="-0.3718" y="1" relative="1" as="geometry">
+            <mxPoint x="19" y="-13.4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="oRI_HrbKrFosAHQT1TK0-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="438" y="390" />
+            </Array>
+            <mxPoint x="307.5" y="390.3899999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRI_HrbKrFosAHQT1TK0-61" value="2：返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oRI_HrbKrFosAHQT1TK0-60">
+          <mxGeometry x="-0.3718" y="1" relative="1" as="geometry">
+            <mxPoint x="19" y="-13.4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
