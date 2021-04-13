@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T08:07:13.669Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" version="14.2.9" etag="KiQ7F-5OSxgGkn-Dv7qb" type="github"><diagram id="M9HpeSEsHPJCjFT-kMwH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-13T08:14:36.454Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="oZB9Jq9C7zon_8kii6Rh" version="14.2.9" type="github">
+  <diagram id="M9HpeSEsHPJCjFT-kMwH" name="第 1 页">
+    <mxGraphModel dx="860" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sb3YRH9UzdscQEXpOZtX-1" value="云平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="110" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sb3YRH9UzdscQEXpOZtX-3" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="140" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Sb3YRH9UzdscQEXpOZtX-4" value="用户自定义JS脚本解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sb3YRH9UzdscQEXpOZtX-5" value="数据解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sb3YRH9UzdscQEXpOZtX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Sb3YRH9UzdscQEXpOZtX-7" target="Sb3YRH9UzdscQEXpOZtX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sb3YRH9UzdscQEXpOZtX-7" value="设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="336" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sb3YRH9UzdscQEXpOZtX-10" value="设备消息发布到自定义Topic&amp;nbsp;&lt;br&gt;/sdt/up/user/...中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="270" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
