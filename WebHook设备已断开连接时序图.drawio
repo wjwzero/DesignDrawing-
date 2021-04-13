@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T12:04:08.479Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="ik6ZUPdH7asdG-oZhusb" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-13T12:06:12.416Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="Q_UCRLp3pEkjy0WLXC_n" version="14.2.9" type="github">
   <diagram id="0NMO2fZKHkWk2bo2I6Xd" name="第 1 页">
-    <mxGraphModel dx="975" dy="542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="808" dy="449" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
             <mxPoint x="205" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xrvVhCjVV4JzKmWy8pxY-12" value="1:设备连接 Broker" style="edgeStyle=none;verticalLabelPosition=top;verticalAlign=bottom;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="xrvVhCjVV4JzKmWy8pxY-5">
+        <mxCell id="xrvVhCjVV4JzKmWy8pxY-12" value="1:设备断开连接 Broker" style="edgeStyle=none;verticalLabelPosition=top;verticalAlign=bottom;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="xrvVhCjVV4JzKmWy8pxY-5">
           <mxGeometry x="242.95524691358025" y="77.09550925925925" width="100" height="100" as="geometry">
             <mxPoint x="210" y="164" as="sourcePoint" />
             <mxPoint x="320" y="164.38563271604943" as="targetPoint" />
@@ -87,7 +87,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xrvVhCjVV4JzKmWy8pxY-17" value="2：设备连接成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xrvVhCjVV4JzKmWy8pxY-16">
+        <mxCell id="xrvVhCjVV4JzKmWy8pxY-17" value="2：设备已断开&lt;br&gt;连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xrvVhCjVV4JzKmWy8pxY-16">
           <mxGeometry x="-0.3144" y="-1" relative="1" as="geometry">
             <mxPoint x="51" y="6.73" as="offset" />
           </mxGeometry>
@@ -184,7 +184,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xrvVhCjVV4JzKmWy8pxY-32" value="7：连接成功&lt;br&gt;消息入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xrvVhCjVV4JzKmWy8pxY-31">
+        <mxCell id="xrvVhCjVV4JzKmWy8pxY-32" value="7：设备断开连接&lt;br&gt;消息入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xrvVhCjVV4JzKmWy8pxY-31">
           <mxGeometry x="-0.3144" y="-1" relative="1" as="geometry">
             <mxPoint x="51" y="6.73" as="offset" />
           </mxGeometry>
