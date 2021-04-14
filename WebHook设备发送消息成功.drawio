@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T02:44:37.269Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="rVGLMRhZLesAutDB2ypD" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T02:47:45.789Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="jovLFe7PfJ-okIMz5Yjz" version="14.2.9" type="github">
   <diagram id="slQdtOe_oaYUVvsfBllE" name="第 1 页">
-    <mxGraphModel dx="593" dy="430" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="786" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6fN1Nboj1RMONommscgy-6" value="" style="fillColor=#CC4125;strokeColor=#660000" vertex="1" parent="1">
-          <mxGeometry x="340" y="164.39" width="10" height="209.61" as="geometry" />
+          <mxGeometry x="340" y="164.39" width="10" height="223.61" as="geometry" />
         </mxCell>
         <mxCell id="6fN1Nboj1RMONommscgy-7" value="MQTT Broker" style="shadow=1;fillColor=#A2C4C9;strokeColor=none" vertex="1" parent="1">
           <mxGeometry x="295" y="60" width="105" height="50" as="geometry" />
@@ -176,7 +176,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6fN1Nboj1RMONommscgy-33" value="7：设备断开连接&lt;br&gt;消息入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6fN1Nboj1RMONommscgy-32">
+        <mxCell id="6fN1Nboj1RMONommscgy-33" value="7：设备成功上&lt;br&gt;报消息记录&lt;br&gt;消息入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6fN1Nboj1RMONommscgy-32">
           <mxGeometry x="-0.3144" y="-1" relative="1" as="geometry">
             <mxPoint x="51" y="6.73" as="offset" />
           </mxGeometry>
@@ -193,6 +193,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6fN1Nboj1RMONommscgy-36" value="4.1：Delete(Msg)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6fN1Nboj1RMONommscgy-35">
+          <mxGeometry x="-0.3144" y="-1" relative="1" as="geometry">
+            <mxPoint x="51" y="6.73" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6fN1Nboj1RMONommscgy-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="337" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="337" />
+              <mxPoint x="390" y="337" />
+            </Array>
+            <mxPoint x="486" y="337" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6fN1Nboj1RMONommscgy-38" value="5：发送成功 Puback" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6fN1Nboj1RMONommscgy-37">
+          <mxGeometry x="-0.3718" y="1" relative="1" as="geometry">
+            <mxPoint x="-19" y="-22.689999999999998" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6fN1Nboj1RMONommscgy-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.928;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350.00000000000045" y="349.60794999999973" as="sourcePoint" />
+            <mxPoint x="351" y="380.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="350" />
+              <mxPoint x="370" y="380" />
+              <mxPoint x="351" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6fN1Nboj1RMONommscgy-40" value="5.1：Delete(Msg)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6fN1Nboj1RMONommscgy-39">
           <mxGeometry x="-0.3144" y="-1" relative="1" as="geometry">
             <mxPoint x="51" y="6.73" as="offset" />
           </mxGeometry>
