@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T11:37:34.386Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="tFTyiBQ1icLUlQRz1WRL" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T11:44:12.401Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="4M_yQwWyGYmNEJnD4QBw" version="14.2.9" type="github">
   <diagram id="_mmYcuLPKxqucfqkDeL-" name="第 1 页">
     <mxGraphModel dx="1660" dy="74" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
         <mxCell id="4sm-s9cK6xc216KGJauF-26" value="" style="group" vertex="1" connectable="0" parent="4sm-s9cK6xc216KGJauF-25">
           <mxGeometry x="367" width="110" height="328" as="geometry" />
         </mxCell>
-        <mxCell id="4sm-s9cK6xc216KGJauF-27" value="投递成功&lt;br&gt;返回MessageId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="4sm-s9cK6xc216KGJauF-26">
+        <mxCell id="4sm-s9cK6xc216KGJauF-27" value="投递集合成功&lt;br&gt;返回MessageId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="4sm-s9cK6xc216KGJauF-26">
           <mxGeometry y="39" width="110" height="289" as="geometry" />
         </mxCell>
         <mxCell id="4sm-s9cK6xc216KGJauF-28" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="4sm-s9cK6xc216KGJauF-26">
