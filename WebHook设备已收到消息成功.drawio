@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T06:03:12.485Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="e6xtARN5-jIRGyWHC34U" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T06:37:56.354Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="XRjP1Zn8e2B99U_t3dha" version="14.2.9" type="github">
   <diagram id="nNrxbBQGZD3dQ9b2gms4" name="第 1 页">
     <mxGraphModel dx="1178" dy="655" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,7 +128,7 @@
             <mxPoint x="648" y="280.01" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_NeroS5PR03IgRyvDBON-29" value="6：pull数据，批处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_NeroS5PR03IgRyvDBON-28" vertex="1" connectable="0">
+        <mxCell id="_NeroS5PR03IgRyvDBON-29" value="6：Puback" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_NeroS5PR03IgRyvDBON-28" vertex="1" connectable="0">
           <mxGeometry x="-0.3279" y="-1" relative="1" as="geometry">
             <mxPoint x="24.68" y="-18.71" as="offset" />
           </mxGeometry>
@@ -144,9 +144,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_NeroS5PR03IgRyvDBON-31" value="6.1：设备成功上&lt;br&gt;报消息记录&lt;br&gt;消息入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_NeroS5PR03IgRyvDBON-30" vertex="1" connectable="0">
+        <mxCell id="_NeroS5PR03IgRyvDBON-31" value="6.1：Delete（Msg）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_NeroS5PR03IgRyvDBON-30" vertex="1" connectable="0">
           <mxGeometry x="-0.3144" y="-1" relative="1" as="geometry">
-            <mxPoint x="51" y="6.73" as="offset" />
+            <mxPoint x="60.5" y="6.73" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_NeroS5PR03IgRyvDBON-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.928;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
