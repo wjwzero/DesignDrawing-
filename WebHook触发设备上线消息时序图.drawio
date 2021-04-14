@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T07:36:41.650Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="u0urgWycXM46wNdHLAZK" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T07:38:57.773Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="mLH1eaz9rBw-vulyAkcu" version="14.2.9" type="github">
   <diagram id="8QZ3eNUAxC8fDXzOBn-9" name="第 1 页">
-    <mxGraphModel dx="717" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="655" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,7 +189,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eDRu1YladjcgCf84gkkG-35" value="" style="fillColor=#CC4125;strokeColor=#660000" vertex="1" parent="1">
-          <mxGeometry x="722.5" y="330" width="10" height="50" as="geometry" />
+          <mxGeometry x="722.5" y="360" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eDRu1YladjcgCf84gkkG-36" value="" style="edgeStyle=none;endArrow=none;dashed=1" edge="1" parent="1" source="eDRu1YladjcgCf84gkkG-33" target="eDRu1YladjcgCf84gkkG-35">
           <mxGeometry x="666.9878472222224" y="174.99999999999997" width="100" height="100" as="geometry">
@@ -197,18 +197,34 @@
             <mxPoint x="727.5" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eDRu1YladjcgCf84gkkG-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.965;exitY=0.984;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eDRu1YladjcgCf84gkkG-24" target="eDRu1YladjcgCf84gkkG-35">
+        <mxCell id="eDRu1YladjcgCf84gkkG-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.965;exitY=0.984;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eDRu1YladjcgCf84gkkG-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="460" y="367" />
             </Array>
             <mxPoint x="460" y="370" as="sourcePoint" />
-            <mxPoint x="597.5" y="370" as="targetPoint" />
+            <mxPoint x="720" y="368" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eDRu1YladjcgCf84gkkG-40" value="8：设备状态变更接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eDRu1YladjcgCf84gkkG-39">
+        <mxCell id="eDRu1YladjcgCf84gkkG-40" value="8：设备状态变更，设备上线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eDRu1YladjcgCf84gkkG-39">
           <mxGeometry x="-0.3279" y="-1" relative="1" as="geometry">
-            <mxPoint x="24.68" y="-18.71" as="offset" />
+            <mxPoint x="43.69" y="-8.55" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eDRu1YladjcgCf84gkkG-43" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.928;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="732.5000000000005" y="370.0079499999998" as="sourcePoint" />
+            <mxPoint x="733.5" y="400.4" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="752.5" y="370.4" />
+              <mxPoint x="752.5" y="400.4" />
+              <mxPoint x="733.5" y="400.4" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eDRu1YladjcgCf84gkkG-44" value="9：更新设备状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eDRu1YladjcgCf84gkkG-43">
+          <mxGeometry x="-0.3144" y="-1" relative="1" as="geometry">
+            <mxPoint x="-11.5" y="45.83" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
