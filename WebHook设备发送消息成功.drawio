@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T12:10:22.249Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="O2t98Ejec3npKvb334Sw" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T02:32:00.012Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="hv2jbR_7OiYReigfmmah" version="14.2.9" type="github">
   <diagram id="slQdtOe_oaYUVvsfBllE" name="第 1 页">
-    <mxGraphModel dx="1178" dy="655" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="200" dy="110" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
             <mxPoint x="205" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6fN1Nboj1RMONommscgy-13" value="1:设备断开连接 Broker" style="edgeStyle=none;verticalLabelPosition=top;verticalAlign=bottom;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="6fN1Nboj1RMONommscgy-6">
+        <mxCell id="6fN1Nboj1RMONommscgy-13" value="1:设备上报QOS1消息" style="edgeStyle=none;verticalLabelPosition=top;verticalAlign=bottom;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="6fN1Nboj1RMONommscgy-6">
           <mxGeometry x="242.95524691358025" y="77.09550925925925" width="100" height="100" as="geometry">
             <mxPoint x="210" y="164" as="sourcePoint" />
             <mxPoint x="320" y="164.38563271604943" as="targetPoint" />
