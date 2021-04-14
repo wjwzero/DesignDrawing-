@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T11:11:35.228Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="bTmJRfZhmgm465RxRiK6" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T11:24:16.212Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="fMN-q03aYKiUEMPrw5pD" version="14.2.9" type="github">
   <diagram id="_mmYcuLPKxqucfqkDeL-" name="第 1 页">
     <mxGraphModel dx="1660" dy="74" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="4sm-s9cK6xc216KGJauF-5" value="" style="group" vertex="1" connectable="0" parent="4sm-s9cK6xc216KGJauF-1">
           <mxGeometry x="181" width="110" height="328" as="geometry" />
         </mxCell>
-        <mxCell id="4sm-s9cK6xc216KGJauF-6" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.根据PK、DK组合Topic&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.通过消息推送通道发送消息&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="4sm-s9cK6xc216KGJauF-5">
+        <mxCell id="4sm-s9cK6xc216KGJauF-6" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.根据PK、应用名、组合Topic&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.通过消息推送通道发送消息&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="4sm-s9cK6xc216KGJauF-5">
           <mxGeometry y="39" width="110" height="289" as="geometry" />
         </mxCell>
         <mxCell id="4sm-s9cK6xc216KGJauF-7" value="处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="4sm-s9cK6xc216KGJauF-5">
@@ -28,7 +28,7 @@
         <mxCell id="4sm-s9cK6xc216KGJauF-8" value="" style="group" vertex="1" connectable="0" parent="4sm-s9cK6xc216KGJauF-1">
           <mxGeometry width="110" height="328" as="geometry" />
         </mxCell>
-        <mxCell id="4sm-s9cK6xc216KGJauF-9" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1.appKey&lt;br&gt;2.appSecret&lt;br&gt;3.目标产品Key&lt;br&gt;4.目标设备Key&lt;br&gt;&lt;div&gt;&lt;span&gt;5.消息内容等&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="4sm-s9cK6xc216KGJauF-8">
+        <mxCell id="4sm-s9cK6xc216KGJauF-9" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1.appKey&lt;br&gt;2.appSecret&lt;br&gt;3.目标产品Key&lt;br&gt;4.应用名称&lt;br&gt;&lt;div&gt;&lt;span&gt;5.消息内容等&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="4sm-s9cK6xc216KGJauF-8">
           <mxGeometry y="39" width="110" height="289" as="geometry" />
         </mxCell>
         <mxCell id="4sm-s9cK6xc216KGJauF-10" value="输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="4sm-s9cK6xc216KGJauF-8">
@@ -41,6 +41,45 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4sm-s9cK6xc216KGJauF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=18;" edge="1" parent="4sm-s9cK6xc216KGJauF-1" source="4sm-s9cK6xc216KGJauF-6" target="4sm-s9cK6xc216KGJauF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sm-s9cK6xc216KGJauF-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-592" y="924" width="477" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="4sm-s9cK6xc216KGJauF-14" value="" style="group" vertex="1" connectable="0" parent="4sm-s9cK6xc216KGJauF-13">
+          <mxGeometry x="367" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="4sm-s9cK6xc216KGJauF-15" value="投递成功&lt;br&gt;返回MessageId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="4sm-s9cK6xc216KGJauF-14">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="4sm-s9cK6xc216KGJauF-16" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="4sm-s9cK6xc216KGJauF-14">
+          <mxGeometry x="30" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4sm-s9cK6xc216KGJauF-17" value="" style="group" vertex="1" connectable="0" parent="4sm-s9cK6xc216KGJauF-13">
+          <mxGeometry x="181" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="4sm-s9cK6xc216KGJauF-18" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.根据PK、DK组合Topic&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.通过消息推送通道发送消息&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="4sm-s9cK6xc216KGJauF-17">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="4sm-s9cK6xc216KGJauF-19" value="处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="4sm-s9cK6xc216KGJauF-17">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4sm-s9cK6xc216KGJauF-20" value="" style="group" vertex="1" connectable="0" parent="4sm-s9cK6xc216KGJauF-13">
+          <mxGeometry width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="4sm-s9cK6xc216KGJauF-21" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1.appKey&lt;br&gt;2.appSecret&lt;br&gt;3.目标产品Key&lt;br&gt;4.目标设备Key&lt;br&gt;4.应用名称&lt;br&gt;5.别名&lt;br&gt;6.别名类型&lt;br&gt;&lt;div&gt;&lt;span&gt;7.消息内容等&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="4sm-s9cK6xc216KGJauF-20">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="4sm-s9cK6xc216KGJauF-22" value="输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="4sm-s9cK6xc216KGJauF-20">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4sm-s9cK6xc216KGJauF-23" value="" style="endArrow=classic;html=1;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="4sm-s9cK6xc216KGJauF-13" source="4sm-s9cK6xc216KGJauF-21" target="4sm-s9cK6xc216KGJauF-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="288" y="174" as="sourcePoint" />
+            <mxPoint x="338" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sm-s9cK6xc216KGJauF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=18;" edge="1" parent="4sm-s9cK6xc216KGJauF-13" source="4sm-s9cK6xc216KGJauF-18" target="4sm-s9cK6xc216KGJauF-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
