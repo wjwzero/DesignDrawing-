@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T08:09:57.543Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="swAPgirE65wFdrlX96a5" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T08:35:44.572Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="S-0k8pymE4CzKdDuMH6u" version="14.2.9" type="github">
   <diagram id="gZDgRPN0TsLaI8oXCVLm" name="第 1 页">
     <mxGraphModel dx="1660" dy="-1526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
         <mxCell id="eqJBFVj15wuLKmalVs7t-50" value="" style="group" vertex="1" connectable="0" parent="eqJBFVj15wuLKmalVs7t-49">
           <mxGeometry x="367" width="110" height="328" as="geometry" />
         </mxCell>
-        <mxCell id="eqJBFVj15wuLKmalVs7t-51" value="通过物模型解析后的指令键值对" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-50">
+        <mxCell id="eqJBFVj15wuLKmalVs7t-51" value="物模型解析后的指令键值对" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-50">
           <mxGeometry y="39" width="110" height="289" as="geometry" />
         </mxCell>
         <mxCell id="eqJBFVj15wuLKmalVs7t-52" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-50">
@@ -197,6 +197,45 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eqJBFVj15wuLKmalVs7t-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=18;" edge="1" parent="eqJBFVj15wuLKmalVs7t-49" source="eqJBFVj15wuLKmalVs7t-54" target="eqJBFVj15wuLKmalVs7t-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-61" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-600" y="3894" width="477" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-62" value="" style="group" vertex="1" connectable="0" parent="eqJBFVj15wuLKmalVs7t-61">
+          <mxGeometry x="367" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-63" value="物模型解析后的指令键值对" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-62">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-64" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-62">
+          <mxGeometry x="30" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-65" value="" style="group" vertex="1" connectable="0" parent="eqJBFVj15wuLKmalVs7t-61">
+          <mxGeometry x="181" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-66" value="&lt;div style=&quot;text-align: left&quot;&gt;1.解析上报消息中事件名称；事件类型等元信息&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2.根据元信息解析校验物模型参数。&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-65">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-67" value="处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-65">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-68" value="" style="group" vertex="1" connectable="0" parent="eqJBFVj15wuLKmalVs7t-61">
+          <mxGeometry width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-69" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1.设备物模型消息信息。&lt;br&gt;2.事件物模型功能代码、服务ID&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-68">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-70" value="输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-68">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-71" value="" style="endArrow=classic;html=1;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="eqJBFVj15wuLKmalVs7t-61" source="eqJBFVj15wuLKmalVs7t-69" target="eqJBFVj15wuLKmalVs7t-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="288" y="174" as="sourcePoint" />
+            <mxPoint x="338" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=18;" edge="1" parent="eqJBFVj15wuLKmalVs7t-61" source="eqJBFVj15wuLKmalVs7t-66" target="eqJBFVj15wuLKmalVs7t-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
