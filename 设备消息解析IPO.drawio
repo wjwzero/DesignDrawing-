@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T12:07:07.815Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="vZtC8Z7fGVLCZDY_se3d" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T02:04:37.054Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="p59k-928f_Qd1D1nqf4V" version="14.2.9" type="github">
   <diagram id="_mmYcuLPKxqucfqkDeL-" name="第 1 页">
     <mxGraphModel dx="1660" dy="74" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,7 +127,7 @@
         <mxCell id="4sm-s9cK6xc216KGJauF-38" value="" style="group" vertex="1" connectable="0" parent="4sm-s9cK6xc216KGJauF-37">
           <mxGeometry x="367" width="110" height="328" as="geometry" />
         </mxCell>
-        <mxCell id="4sm-s9cK6xc216KGJauF-39" value="投递集合成功&lt;br&gt;返回MessageId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="4sm-s9cK6xc216KGJauF-38">
+        <mxCell id="4sm-s9cK6xc216KGJauF-39" value="消息信息批量入库。" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="4sm-s9cK6xc216KGJauF-38">
           <mxGeometry y="39" width="110" height="289" as="geometry" />
         </mxCell>
         <mxCell id="4sm-s9cK6xc216KGJauF-40" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="4sm-s9cK6xc216KGJauF-38">
@@ -136,7 +136,7 @@
         <mxCell id="4sm-s9cK6xc216KGJauF-41" value="" style="group" vertex="1" connectable="0" parent="4sm-s9cK6xc216KGJauF-37">
           <mxGeometry x="181" width="110" height="328" as="geometry" />
         </mxCell>
-        <mxCell id="4sm-s9cK6xc216KGJauF-42" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.根据PK、DK、别名列表组合Topic集合&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.通过消息推送通道投递消息集合到消息列队&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="4sm-s9cK6xc216KGJauF-41">
+        <mxCell id="4sm-s9cK6xc216KGJauF-42" value="&lt;div style=&quot;text-align: left&quot;&gt;1.解析消费集合中，待发送信息中产品Key、设备Key等元数据。&lt;br&gt;2.根据此产品下设备消息类型进行校验及业务逻辑处理。&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="4sm-s9cK6xc216KGJauF-41">
           <mxGeometry y="39" width="110" height="289" as="geometry" />
         </mxCell>
         <mxCell id="4sm-s9cK6xc216KGJauF-43" value="处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="4sm-s9cK6xc216KGJauF-41">
