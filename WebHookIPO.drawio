@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T08:35:44.572Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="S-0k8pymE4CzKdDuMH6u" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T07:30:56.937Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="bytPuB5hPVqufQ1GMkQk" version="14.2.9" type="github">
   <diagram id="gZDgRPN0TsLaI8oXCVLm" name="第 1 页">
     <mxGraphModel dx="1660" dy="-1526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -205,7 +205,7 @@
         <mxCell id="eqJBFVj15wuLKmalVs7t-62" value="" style="group" vertex="1" connectable="0" parent="eqJBFVj15wuLKmalVs7t-61">
           <mxGeometry x="367" width="110" height="328" as="geometry" />
         </mxCell>
-        <mxCell id="eqJBFVj15wuLKmalVs7t-63" value="物模型解析后的指令键值对" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-62">
+        <mxCell id="eqJBFVj15wuLKmalVs7t-63" value="物模型解析后的事件参数键值对" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-62">
           <mxGeometry y="39" width="110" height="289" as="geometry" />
         </mxCell>
         <mxCell id="eqJBFVj15wuLKmalVs7t-64" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-62">
@@ -236,6 +236,84 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eqJBFVj15wuLKmalVs7t-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=18;" edge="1" parent="eqJBFVj15wuLKmalVs7t-61" source="eqJBFVj15wuLKmalVs7t-66" target="eqJBFVj15wuLKmalVs7t-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-73" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-604" y="4326" width="477" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-74" value="" style="group" vertex="1" connectable="0" parent="eqJBFVj15wuLKmalVs7t-73">
+          <mxGeometry x="367" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-75" value="物模型解析后的属性参数键值对" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-74">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-76" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-74">
+          <mxGeometry x="30" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-77" value="" style="group" vertex="1" connectable="0" parent="eqJBFVj15wuLKmalVs7t-73">
+          <mxGeometry x="181" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-78" value="&lt;div style=&quot;text-align: left&quot;&gt;1.解析上报消息中物模型动作。服务ID等元数据信息。&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2.&lt;span&gt;根据元信息解析校验物模型参数。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-77">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-79" value="处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-77">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-80" value="" style="group" vertex="1" connectable="0" parent="eqJBFVj15wuLKmalVs7t-73">
+          <mxGeometry width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-81" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1.设备物模型消息信息。&lt;br&gt;2.属性物模型功能代码、服务ID&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-80">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-82" value="输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-80">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-83" value="" style="endArrow=classic;html=1;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="eqJBFVj15wuLKmalVs7t-73" source="eqJBFVj15wuLKmalVs7t-81" target="eqJBFVj15wuLKmalVs7t-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="288" y="174" as="sourcePoint" />
+            <mxPoint x="338" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=18;" edge="1" parent="eqJBFVj15wuLKmalVs7t-73" source="eqJBFVj15wuLKmalVs7t-78" target="eqJBFVj15wuLKmalVs7t-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-85" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-602" y="4727" width="477" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-86" value="" style="group" vertex="1" connectable="0" parent="eqJBFVj15wuLKmalVs7t-85">
+          <mxGeometry x="367" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-87" value="无" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-86">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-88" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-86">
+          <mxGeometry x="30" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-89" value="" style="group" vertex="1" connectable="0" parent="eqJBFVj15wuLKmalVs7t-85">
+          <mxGeometry x="181" width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-90" value="&lt;div style=&quot;text-align: left&quot;&gt;1.根据回调事件动作不同发送到不同的消息中间件主题中。&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-89">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-91" value="处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-89">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-92" value="" style="group" vertex="1" connectable="0" parent="eqJBFVj15wuLKmalVs7t-85">
+          <mxGeometry width="110" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-93" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1.WebHook回调事件信息。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-92">
+          <mxGeometry y="39" width="110" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-94" value="输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="eqJBFVj15wuLKmalVs7t-92">
+          <mxGeometry x="32" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-95" value="" style="endArrow=classic;html=1;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="eqJBFVj15wuLKmalVs7t-85" source="eqJBFVj15wuLKmalVs7t-93" target="eqJBFVj15wuLKmalVs7t-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="288" y="174" as="sourcePoint" />
+            <mxPoint x="338" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqJBFVj15wuLKmalVs7t-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=18;" edge="1" parent="eqJBFVj15wuLKmalVs7t-85" source="eqJBFVj15wuLKmalVs7t-90" target="eqJBFVj15wuLKmalVs7t-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
