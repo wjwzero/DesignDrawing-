@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T06:53:20.311Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="vLIhjJprqSWcVtM5Q4y7" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-19T07:40:32.975Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="fLKfeOzIkMh7qCRbNh3A" version="14.2.9" type="github">
   <diagram id="gZDgRPN0TsLaI8oXCVLm" name="第 1 页">
     <mxGraphModel dx="1660" dy="-1526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -331,7 +331,7 @@
         <mxCell id="eqJBFVj15wuLKmalVs7t-101" value="" style="group" parent="eqJBFVj15wuLKmalVs7t-97" vertex="1" connectable="0">
           <mxGeometry x="181" width="110" height="328" as="geometry" />
         </mxCell>
-        <mxCell id="eqJBFVj15wuLKmalVs7t-102" value="&lt;div style=&quot;text-align: left&quot;&gt;1.根据信息元数据获取铲平对应的规则信息，执行规则引擎。&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="eqJBFVj15wuLKmalVs7t-101" vertex="1">
+        <mxCell id="eqJBFVj15wuLKmalVs7t-102" value="&lt;div style=&quot;text-align: left&quot;&gt;1.根据信息元数据获取产品对应的规则信息，执行规则引擎。&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="eqJBFVj15wuLKmalVs7t-101" vertex="1">
           <mxGeometry y="39" width="110" height="289" as="geometry" />
         </mxCell>
         <mxCell id="eqJBFVj15wuLKmalVs7t-103" value="处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" parent="eqJBFVj15wuLKmalVs7t-101" vertex="1">
