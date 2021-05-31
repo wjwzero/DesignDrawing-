@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2021-05-31T08:40:08.870Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="5lWxNwXXzU_bD02AuXMy" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-31T09:00:33.253Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="z91Vi5wDM9Zyn4PKKxnO" version="14.7.2" type="github">
   <diagram id="cd64epJBCo_FnriahyT2" name="第 1 页">
     <mxGraphModel dx="860" dy="474" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NY6iDRdv9ws-GbG3F_6y-20" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="122" y="25" width="361" height="361" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6iDRdv9ws-GbG3F_6y-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NY6iDRdv9ws-GbG3F_6y-1" target="NY6iDRdv9ws-GbG3F_6y-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6iDRdv9ws-GbG3F_6y-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="53" y="171" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6iDRdv9ws-GbG3F_6y-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NY6iDRdv9ws-GbG3F_6y-3" target="NY6iDRdv9ws-GbG3F_6y-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6iDRdv9ws-GbG3F_6y-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NY6iDRdv9ws-GbG3F_6y-3" target="NY6iDRdv9ws-GbG3F_6y-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6iDRdv9ws-GbG3F_6y-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NY6iDRdv9ws-GbG3F_6y-3" target="NY6iDRdv9ws-GbG3F_6y-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6iDRdv9ws-GbG3F_6y-3" value="物模型管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="186" y="164" width="95" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6iDRdv9ws-GbG3F_6y-4" value="物模型导入" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="91" width="95" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6iDRdv9ws-GbG3F_6y-5" value="物模型导出" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="164" width="95" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NY6iDRdv9ws-GbG3F_6y-6" value="物模型查询" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="237" width="95" height="55" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
