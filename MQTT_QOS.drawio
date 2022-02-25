@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T02:52:51.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="mlt8MEXJFdoboNKOomTK" version="16.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-25T03:15:18.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="FCfIls2s7dYhUsbokRo1" version="16.6.3" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1231" dy="465" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2520" dy="627" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -561,6 +561,102 @@
         </mxCell>
         <mxCell id="3lCoFMhB8KGfy12Hz4rI-163" value="离线 消息接收者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-333.5" y="2364" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-174" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3lCoFMhB8KGfy12Hz4rI-172" target="3lCoFMhB8KGfy12Hz4rI-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-172" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-666.5" y="2856" width="109" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-179" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3lCoFMhB8KGfy12Hz4rI-173" target="3lCoFMhB8KGfy12Hz4rI-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-173" value="初始化 发送者、消息中间件、接收者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730.5" y="2920" width="237" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-181" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3lCoFMhB8KGfy12Hz4rI-178" target="3lCoFMhB8KGfy12Hz4rI-180">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-178" value="发送者投递消息到消息中间件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730.5" y="2980" width="237" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-183" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3lCoFMhB8KGfy12Hz4rI-180" target="3lCoFMhB8KGfy12Hz4rI-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-180" value="保存到待发送消息队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730.5" y="3037" width="237" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-205" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3lCoFMhB8KGfy12Hz4rI-182" target="3lCoFMhB8KGfy12Hz4rI-204">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-452" y="3119.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-207" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3lCoFMhB8KGfy12Hz4rI-182" target="3lCoFMhB8KGfy12Hz4rI-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-182" value="订阅主题的接收者是否在线" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-739" y="3098" width="254" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-190" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-643" y="3150" width="22" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-208" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3lCoFMhB8KGfy12Hz4rI-191" target="3lCoFMhB8KGfy12Hz4rI-193">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-348" y="3231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-211" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3lCoFMhB8KGfy12Hz4rI-191" target="3lCoFMhB8KGfy12Hz4rI-199">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-221" y="3395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-191" value="是否通过消息回撤过滤器 过滤链" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-475" y="3163" width="254" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-197" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3lCoFMhB8KGfy12Hz4rI-193" target="3lCoFMhB8KGfy12Hz4rI-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-193" value="向接收者发送消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730.5" y="3201" width="237" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-195" value="通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-444" y="3208" width="34" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-200" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3lCoFMhB8KGfy12Hz4rI-196" target="3lCoFMhB8KGfy12Hz4rI-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-213" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3lCoFMhB8KGfy12Hz4rI-196" target="3lCoFMhB8KGfy12Hz4rI-180">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-805" y="3317" />
+              <mxPoint x="-803" y="3059" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-196" value="接受者是否返回 确认消息" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-739" y="3284" width="254" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-199" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670.5" y="3371" width="117" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-201" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-634.5" y="3353" width="22" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-210" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3lCoFMhB8KGfy12Hz4rI-204" target="3lCoFMhB8KGfy12Hz4rI-191">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-204" value="接收者连接到中间件时" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-421" y="3100" width="147" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-212" value="未通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-273" y="3252" width="46" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="3lCoFMhB8KGfy12Hz4rI-214" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-781" y="3294" width="22" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
